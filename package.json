@@ -1,0 +1,20 @@
+{
+  "name": "hackfriday-pubnub-wikipedia",
+  "version": "1.0.0",
+  "description": "Hack Friday Oncase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Stream",
+    "Wikipedia",
+    "Oncase"
+  ],
+  "author": "Raniel Silva",
+  "license": "ISC",
+  "dependencies": {
+    "kafka-node": "^4.1.3",
+    "pubnub": "^4.24.2"
+  }
+}
