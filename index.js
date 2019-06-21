@@ -9,12 +9,11 @@ const pubnub = new PubNub({
 });
 
 const client = new kafka.KafkaClient({
-  // kafkaHost: 'localhost:9092'
   kafkaHost: '54.183.249.139:9092'
 });
 const producer = new kafka.HighLevelProducer(client);
 
-const topic = 'wikipedia2';
+const topic = 'wikipedia';
 
 producer.on('error', function (err) {
   console.log('PRODUCER ERROR', err);
