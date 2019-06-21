@@ -1,8 +1,6 @@
 const PubNub = require('pubnub');
 const kafka = require('kafka-node');
 
-process.setMaxListeners(0);
-
 const pubnub = new PubNub({
   publishKey: 'demo',
   subscribeKey: 'sub-c-b0d14910-0601-11e4-b703-02ee2ddab7fe'
